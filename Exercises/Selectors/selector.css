@@ -1,0 +1,29 @@
+#special { /*id*/
+	color: orange;
+}
+
+.completed{ /*class*/
+	text-decoration: line-through;
+}
+
+/*
+
+- the * selector applies to every single element
+- the descendant selector (e.g. li a) applies to variables inside an element
+- adjacent selector (e.g. h4 + ul) selects elements that comes after another one
+- attribute selector selects based on attribute (e.g. a[href="https://gogole.com"]{})
+- nth of type selects every nth of an element (e.g. ul:nth-of-type(3){})
+
+Specificity in order of magnitude:
+
+Type Selectors
+li{}
+li a{}
+li + a{}
+
+Class, attributes, and pseudo-class selectors
+.hello{}
+input[type="text"]{}
+a:hover{}
+
+id selectors (biggest in magnitude)
